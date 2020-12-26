@@ -1,0 +1,51 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+// @import "compass/reset";
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+}
+
+footer {
+    padding: 1em 0;
+    text-align: center;
+    border-top: .05em solid #e5e5e5;
+
+    p:last-child {
+        margin-bottom: 0;
+        font-size: 0.875em;
+    }
+
+    a {
+        color: #212529;
+        
+        &:link, &:visited, &:hover, &:active {
+            text-decoration: none;
+        }
+    }
+}
+
+.backtop {
+    position: fixed;
+    display: none;
+    right: 2%;
+    bottom: 10%;
+    width: 5em;
+    height: 5em;
+    z-index: 899;
+    text-align: center;
+    
+
+    a {
+        font-size: 3em;
+        color: #b5b9bc;
+
+        &:hover {
+            color: #5e5e5e;
+        }
+    }
+
+}

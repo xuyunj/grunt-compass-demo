@@ -1,0 +1,49 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 8, ../../build/sass/screen.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+}
+
+/* line 12, ../../build/sass/screen.scss */
+footer {
+  padding: 1em 0;
+  text-align: center;
+  border-top: .05em solid #e5e5e5;
+}
+/* line 17, ../../build/sass/screen.scss */
+footer p:last-child {
+  margin-bottom: 0;
+  font-size: 0.875em;
+}
+/* line 22, ../../build/sass/screen.scss */
+footer a {
+  color: #212529;
+}
+/* line 25, ../../build/sass/screen.scss */
+footer a:link, footer a:visited, footer a:hover, footer a:active {
+  text-decoration: none;
+}
+
+/* line 31, ../../build/sass/screen.scss */
+.backtop {
+  position: fixed;
+  display: none;
+  right: 2%;
+  bottom: 10%;
+  width: 5em;
+  height: 5em;
+  z-index: 899;
+  text-align: center;
+}
+/* line 42, ../../build/sass/screen.scss */
+.backtop a {
+  font-size: 3em;
+  color: #b5b9bc;
+}
+/* line 46, ../../build/sass/screen.scss */
+.backtop a:hover {
+  color: #5e5e5e;
+}
